@@ -1,7 +1,10 @@
-import { theme, DefaultTheme } from '@chakra-ui/core';
+import theme, { Theme } from '@chakra-ui/theme';
 
-const customTheme: DefaultTheme = {
+const customTheme: Theme = {
   ...theme,
+  config: {
+    initialColorMode: 'dark',
+  },
   fonts: {
     body: 'Roboto, system-ui, sans-serif',
     heading: 'Roboto, system-ui, sans-serif',
