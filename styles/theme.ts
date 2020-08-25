@@ -3,7 +3,7 @@ import theme, { Theme } from '@chakra-ui/theme';
 const customTheme: Theme = {
   ...theme,
   config: {
-    initialColorMode: 'dark',
+    initialColorMode: 'light',
   },
   fonts: {
     body: 'Roboto, system-ui, sans-serif',
